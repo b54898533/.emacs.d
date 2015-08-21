@@ -1,0 +1,8 @@
+#+title init-evil.org
+
+* Evil Setting
+
+#+BEGIN_SRC emacs-lisp
+  (evil-mode 1)
+#+END_SRC
+

@@ -1,0 +1,35 @@
+#+title: init-misc
+
+* Theme Setting
+
+#+BEGIN_SRC emacs-lisp
+  (require 'solarized)
+  (deftheme solarized-dark "The dark variant of the Solarized colour theme")
+  (create-solarized-theme 'dark 'solarized-dark)
+#+END_SRC
+
+* Frame Setting
+
+** Font Setting
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'default-frame-alist '(font . "Consolas-12"))
+#+END_SRC
+
+** Mode-Line Setting
+
+#+BEGIN_SRC emacs-lisp
+  (setq column-number-mode t)
+  (setq line-number-mode t)
+  (global-linum-mode 1) ;;line number
+#+END_SRC   
+* Window-numbering Setting
+
+#+BEGIN_SRC emacs-lisp
+  (window-numbering-mode 1)
+#+END_SRC
+* Other Setting
+  
+#+BEGIN_SRC emacs-lisp
+  (desktop-save-mode 1)
+#+END_SRC

@@ -1,0 +1,7 @@
+#+title: init-org
+
+* Org Setting
+
+#+BEGIN_SRC emacs-lisp
+    (setq org-src-fontify-natively t)
+#+END_SRC
