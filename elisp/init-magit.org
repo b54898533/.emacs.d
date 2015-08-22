@@ -1,5 +1,10 @@
 #+title: init-magit
 
+* Environment Variable Setting
+
+#+BEGIN_SRC emacs-lisp
+  (setenv "GIT_ASKPASS" "git-gui--askpass")
+#+END_SRC
 * Global Set Key
 
 #+BEGIN_SRC emacs-lisp
