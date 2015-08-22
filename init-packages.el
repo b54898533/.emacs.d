@@ -17,7 +17,6 @@
       key-chord
       magit ;; git for emacs
       solarized-theme ;;theme
-      ssh-agency ;; ssh agency
       yasnippet ;; template system for emacs
       window-numbering ;; Numbered window shortcuts for Emacs
       ))
