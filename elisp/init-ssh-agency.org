@@ -2,5 +2,6 @@
 
 * Set ssh-agency-add-excutable
 #+BEGIN_SRC emacs-lisp
-   '(ssh-agency-add-executable "d:/Cheng/Program/tool/Git/bin/usr/ssh-add.exe")
+  (eval-after-load "ssh-agency-add-executable"
+    '(ssh-agency-add-executable "d:/Cheng/Program/tool/Git/bin/usr/ssh-add.exe"))
 #+END_SRC
